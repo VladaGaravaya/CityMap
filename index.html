@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Пример веб-страницы</title>
+  <link rel="stylesheet" type="text/css" href="styles.css"> 
+ </head>
+ <body>
+
+    <div>
+        <input id="search" type="text">
+        <button id="buttonSearch">Search</button>
+
+        <table id="list">
+        </table>
+
+        <button id="input">+CITY</button>
+    </div>
+  
+    <div class="mostCity">
+        <p>The name of the northernmost city: <i id="north"></i></p>
+        <p>The name of the easternmost city: <i id="east"></i></p>
+        <p>The name of the southernmost city: <i id="south"></i></p>
+        <p>The name of the westernmost city: <i id="west"></i></p>
+    </div>
+
+    <div id="my_dataviz"></div>
+
+    <script src='code.js'></script>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="d3.js"></script>
+ </body>
+</html>
